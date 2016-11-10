@@ -1,0 +1,11 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "Personal blog with authentication so only I can post",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Steven <mcgrath.steven7@gmail.com>",
+  "license": "ISC"
+}
