@@ -1,0 +1,29 @@
+{
+  "name": "my_blog",
+  "version": "1.0.0",
+  "description": "Personal blog with authentication so only I can post",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon -e css,pug,js,json --watch app"
+  },
+  "author": "Steven <mcgrath.steven7@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "mocha": "^3.1.2",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.0.0",
+    "pug": "^2.0.0-beta6",
+    "reload": "^1.0.2",
+    "serve-favicon": "^2.3.0"
+  }
+}
